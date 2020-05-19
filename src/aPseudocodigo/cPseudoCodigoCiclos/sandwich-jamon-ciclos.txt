@@ -1,0 +1,31 @@
+contadorBolonia = 5
+contadorJamon = 10
+
+
+while(contadorBolonia>0){
+	hacerSandwichBolonia();
+        contadorBolonia = contadorBolonia -1
+    }
+
+while(contadorJamon>0){
+	hacerSandwichJamon();
+        contadorJamon = contadorJamon -1
+    }
+
+
+//////////////////////////////////////////////////////////
+
+
+contadorBolonia = 0
+contadorJamon = 0
+
+
+while(contadorBolonia<5){
+	hacerSandwichBolonia();
+        contadorBolonia = contadorBolonia +1
+    }
+
+while(contadorJamon<10){
+	hacerSandwichJamon();
+        contadorJamon = contadorJamon +1
+     }
